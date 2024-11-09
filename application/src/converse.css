@@ -1,14 +1,25 @@
 .toptitle {
     text-align: center;
-    background-color:  	#DCDCDC;
+    background-color:  	#f7f7f7;
     margin: auto;
-    height: 80px;
+    height: 60px;
     padding: 50px;
+    font-family: sans-serif;
 }
 
+.sale {
+    width: 90px;
+    height: 40px;
+    background-color: #eb3e34;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    display: inline;
+}
 .outerborder {
-    width: 100%;
+    width: 95%;
     height: 100%;
+    margin: auto;
 }
 
 .blackborder {
@@ -23,7 +34,8 @@
     color: white;
     background-color: black;
     text-align: center;
-    height: 200px;
+    height: 40px;
     margin: auto;
-    padding: 10px;
+    padding: 60px;
+    font-family: sans-serif;
 }
