@@ -16,6 +16,7 @@
     padding: 10px;
     display: inline;
 }
+
 .outerborder {
     width: 95%;
     height: 100%;
@@ -38,4 +39,26 @@
     margin: auto;
     padding: 60px;
     font-family: sans-serif;
+    border-top: 5px solid black;
 }
+
+.carttext:hover {
+    background-color: white;
+    color: black;
+}
+
+.firstcol {
+    width: 50%;
+}
+.columns {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.column {
+    flex: 1;
+    transition: 0.3s;
+}
+
