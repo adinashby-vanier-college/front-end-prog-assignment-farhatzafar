@@ -14,3 +14,29 @@
 .desc {
     padding: 50px;
 }
+
+.pebbles {
+    margin-left: 40%;
+}
+
+.pebblesphoto {
+    border-radius: 50%;
+    display: inline;
+    height: 100px;
+}
+
+.pebblestext {
+    color: white;
+    display: inline;
+    padding-bottom: 50%;
+}
+
+.logos {
+    display: inline;
+    padding: 200px;
+}
+
+.logo {
+    height: 50px;
+    margin-top: 10%;
+}
