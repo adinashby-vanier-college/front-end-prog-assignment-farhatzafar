@@ -15,6 +15,7 @@
     text-align: center;
     padding: 10px;
     display: inline;
+    font-family: sans-serif;
 }
 
 .outerborder {
@@ -48,17 +49,85 @@
 }
 
 .firstcol {
-    width: 50%;
+    width: 100%;
+    margin-bottom: 0;
 }
+
+.secondcol {
+    padding: 40px;
+    font-size: large;
+}
+
 .columns {
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
     margin: 5px 0;
+    font-family: sans-serif;
 }
 
 .column {
     flex: 1;
     transition: 0.3s;
+}
+
+.cost, .ship {
+    display: inline;
+    padding: 40px;
+}
+
+.ship {
+    color: grey;
+    text-align: right;
+    margin: auto;
+}
+
+.squares {
+    display: flex;
+    flex-flow: row;
+    margin: 0;
+    padding: 10px;
+}
+
+.blacksquare {
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    margin: 10px;
+}
+
+.bluesquare {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.redsquare {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin: 10px;
+}
+
+.yellowsquare {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.greensquare {
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    margin: 10px;
+}
+
+.brownsquare {
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    margin: 10px;
 }
 
