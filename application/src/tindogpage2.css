@@ -17,18 +17,19 @@
 
 .pebbles {
     margin-left: 40%;
+    display: flex;
+    flex-direction: row;
 }
 
 .pebblesphoto {
     border-radius: 50%;
-    display: inline;
     height: 100px;
 }
 
 .pebblestext {
     color: white;
-    display: inline;
-    padding-bottom: 50%;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .logos {
