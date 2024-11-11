@@ -1,0 +1,16 @@
+.back {
+    background-color: #ec8775;
+    width: 100%;
+    height: 700px;
+    margin: auto;
+}
+
+.blurb {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.desc {
+    padding: 50px;
+}
