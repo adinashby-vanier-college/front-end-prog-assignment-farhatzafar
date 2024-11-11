@@ -40,3 +40,15 @@
     height: 50px;
     margin-top: 10%;
 }
+
+.leftarrow {
+    color: white;
+    display: inline;
+    padding-left: 10%;
+}
+
+.rightarrow {
+    color: white;
+    display: inline;
+    padding-left: 90%;
+}
