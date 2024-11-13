@@ -1,3 +1,98 @@
-.bi bi-envelope {
-    background-color: black;
+.desc {
+    color: white;
+    font-family: sans-serif;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.outerborder {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+.pinkbox {
+    background-color:   rgb(255, 87, 110);
+    width: 99%;
+    height: 470px;
+    margin: 6px auto;
+
+}
+
+.slogan1 {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: serif;
+    padding-top: 50px;
+}
+
+.slogan2 {
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+    font-family: serif;
+    
+}
+
+.download {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.down1 {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    margin: 10px;
+    padding: 0 14px 0 10px;
+}
+
+.down2 {
+    background-color: rgb(255, 255, 255) ;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.bi-apple {
+    margin: -3px 3px 0 0;
+}
+
+.bi-google-play {
+    margin: -3px 3px 0 0;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bi-twitter {
+    margin: 10px;
+}
+
+.bi-facebook {
+    margin: 2px 10px 0 10px;
+    font-size: 1.2rem;
+}
+
+.bi-instagram {
+    margin: 10px;
+}
+
+.bi-envelope-fill {
+    margin: 10px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    color: rgb(95, 95, 95)
+}
+
+.bottomsection {
+    margin-top: 100px;
 }
