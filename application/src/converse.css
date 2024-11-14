@@ -18,6 +18,7 @@
     font-family: sans-serif;
 }
 
+
 .outerborder {
     width: 95%;
     height: 100%;
@@ -28,9 +29,6 @@
     border: 5px solid black;
 }
 
-/*.cart {
-    border: 50px solid black;
-}*/
 
 .carttext {
     color: white;
@@ -48,10 +46,6 @@
     color: black;
 }
 
-.firstcol {
-    width: 100%;
-    margin-bottom: 0;
-}
 
 .secondcol {
     padding: 40px;
@@ -60,32 +54,54 @@
 
 .columns {
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: center;
-    margin: 5px 0;
     font-family: sans-serif;
+    width: 100%;
 }
 
-.column {
-    flex: 1;
-    transition: 0.3s;
+.firstcol {
+    width: 100%;
 }
+
+.column1 {
+    margin-bottom: -5px;
+    flex: 1;
+    transition: 0.2s;
+}
+    
+.column2 {
+    padding: 50px;
+    flex: 1;
+    transition: 0.2s;
+} 
+
+.column3 {
+    padding: 50px;
+    flex: 1;
+    transition: 0.2s;
+    line-height: 2rem;
+} 
+
 
 .cost, .ship {
     display: inline;
-    padding: 40px;
+    margin-top: 40px;
 }
 
 .ship {
     color: grey;
-    text-align: right;
-    margin: auto;
+    margin-left: 60px;
+}
+
+.cost {
+    margin-left: 40px;
 }
 
 .squares {
     display: flex;
     flex-flow: row;
-    margin: 0;
+    margin-left: 20px;
     padding: 10px;
 }
 
