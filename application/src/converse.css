@@ -61,7 +61,8 @@
 }
 
 .firstcol {
-    width: 100%;
+    width: 415px;
+    padding: 0;
 }
 
 .column1 {
@@ -71,13 +72,13 @@
 }
     
 .column2 {
-    padding: 50px;
+    padding: 50px 0 50px 0;
     flex: 1;
     transition: 0.2s;
 } 
 
 .column3 {
-    padding: 50px;
+    padding: 30px 0 50px 0;
     flex: 1;
     transition: 0.2s;
     line-height: 2rem;
